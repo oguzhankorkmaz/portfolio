@@ -3,11 +3,13 @@ import React from "react";
 import ArrowButton from "../ArrowButton/ArrowButton";
 import { motion } from "framer-motion";
 import Tag from "../Tag/Tag";
+import Link from "next/link";
 
 type PortfolioCardProp = {
   type: "home" | "portfolio";
   data: {
     name: string;
+    name_t: string;
     logo: string;
     view_img: string;
     color_primary: string;
@@ -42,7 +44,7 @@ function PortfolioCard({ type, data }: PortfolioCardProp) {
       />
     </div>
   ) : (
-    <div className="h-[570px] p-6 rounded-[20px] bg-gray grid grid-cols-2 gap-6">
+    <Link href={`/portfolio/detail/${data.name_t}`} className="h-[570px] p-6 rounded-[20px] bg-gray grid grid-cols-2 gap-6 hover:shadow-sm cursor-pointer">
       <div className="col-span-1 h-full flex flex-col justify-center items-start gap-10">
         <img src={data.logo} alt="logo" className="h-[60px]" />
         <div className="flex gap-6">
@@ -88,7 +90,7 @@ function PortfolioCard({ type, data }: PortfolioCardProp) {
           />
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

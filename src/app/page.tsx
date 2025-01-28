@@ -78,11 +78,11 @@ export default function Home() {
       <motion.div
         animate={{ marginTop: ["100vh", "36vh"] }}
         transition={{ duration: 1, delay: 2 }}
-        className="relative bg-white bg-white rounded-md py-18"
+        className="relative bg-white  rounded-md py-18"
       >
         <div className="container mx-auto">
           <section id="about">
-            <div className="grid grid-cols-3 gap-6 bg-black p-6 bg-black w-[960px] mx-auto rounded-[36px]">
+            <div className="grid grid-cols-3 gap-6 bg-black p-6  w-[960px] mx-auto rounded-[36px]">
               <div className="">
                 <img src="/images/about.png" />
               </div>

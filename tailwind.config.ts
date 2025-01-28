@@ -43,6 +43,9 @@ export default {
         "menu-bg": "url('/images/menu-bg.svg')",
         "social-media-bg": "url('/images/social-media-bg.svg')",
       },
+      boxShadow: {
+        sm: "0 0 20px 5px rgba(0,0,0,0.1)"
+      }
     },
     fontSize: {
       sm: "14px",

@@ -7,7 +7,7 @@ import PortfolioCard from "../components/PortfolioCard/PortfolioCard";
 
 function Portfolio() {
   return (
-    <div className="relative bg-white bg-white rounded-md py-6 mt-6">
+    <div className="relative bg-white  rounded-md py-6 mt-6">
       <div className="container mx-auto">
         <section className="bg-black rounded-md p-6">
           <div className="flex items-center justify-between h-full">

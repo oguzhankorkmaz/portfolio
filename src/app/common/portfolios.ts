@@ -1,6 +1,7 @@
 export const PORTFOLIOS = [
   {
     name: "Casa Alegre Alaçatı",
+    name_t: "casaalegrealacati",
     logo: "/images/logo/casaalegrealacati.svg",
     view_img: "/images/portfolio/casaalegrealacati.png",
     color_primary: "#d5bf87",
@@ -18,6 +19,7 @@ export const PORTFOLIOS = [
   },
   {
     name: "Crewin Web",
+    name_t: "crewin_web",
     logo: "/images/logo/crewin.svg",
     view_img: "/images/portfolio/casaalegrealacati.png",
     color_primary: "#012030",
@@ -35,6 +37,7 @@ export const PORTFOLIOS = [
   },
   {
     name: "Crewin Mobile",
+    name_t: "crewin_mobile",
     logo: "/images/logo/crewin.svg",
     view_img: "/images/portfolio/casaalegrealacati.png",
     color_primary: "#012030",
@@ -52,6 +55,7 @@ export const PORTFOLIOS = [
   },
   {
     name: "CrewNature",
+    name_t: "crewnature",
     logo: "/images/logo/crewnature.svg",
     view_img: "/images/portfolio/casaalegrealacati.png",
     color_primary: "#8200f4",
@@ -69,6 +73,7 @@ export const PORTFOLIOS = [
   },
   {
     name: "Karacoban Eng",
+    name_t: "karacoban",
     logo: "/images/logo/karacobaneng.svg",
     view_img: "/images/portfolio/casaalegrealacati.png",
     color_primary: "#003851",
