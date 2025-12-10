@@ -1,19 +1,8 @@
 "use client";
-import type { Metadata } from "next";
-import "./styles/globals.css";
-import Sidebar from "./components/Sidebar/Sidebar";
-import {
-  Bezier,
-  Brush,
-  Brush2,
-  Gallery,
-  Layer,
-  Play,
-  Text,
-} from "iconsax-react";
-import EntryIconCard from "./components/EntryIconCard/EntryIconCard";
-import { motion } from "framer-motion";
-import SocialMedias from "./components/SocialMedias/SocialMedias";
+import Navbar from "@/components/Navbar/Navbar";
+import Sidebar from "../components/Sidebar/Sidebar";
+import SocialMedias from "../components/SocialMedias/SocialMedias";
+import "../styles/globals.css";
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -29,11 +18,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex">
-          <Sidebar />
-          <SocialMedias/>
-          <main className="w-full mx-6">
-              {children}
-          </main>
+          <Navbar />
+          {/* <Sidebar /> */}
+          {/* <SocialMedias /> */}
+          <main className="w-full md:mx-6">{children}</main>
         </div>
       </body>
     </html>
