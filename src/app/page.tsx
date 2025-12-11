@@ -57,13 +57,13 @@ export default function Home() {
             icon={<Brush color="#1B1E31" size={24} />}
           />
           <EntryIconCard
-            styles="lg:left-[260px] md:left-[180px] left-[100] rotate-[7deg]"
+            styles="lg:left-[260px] md:left-[180px] left-[100px] rotate-[7deg]"
             topStart={-200}
             topEnd={-400}
             icon={<Bezier color="#1B1E31" size={24} />}
           />
           <EntryIconCard
-            styles="xl:left-[400px] lg:left-[360px] md:left-[240] left-[140] rotate-[7deg]"
+            styles="xl:left-[400px] lg:left-[360px] md:left-[240px] left-[140px] rotate-[7deg]"
             topStart={200}
             topEnd={-140}
             icon={<Text color="#1B1E31" size={24} />}
