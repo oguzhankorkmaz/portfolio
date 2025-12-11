@@ -1,13 +1,10 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
-import NavbarButton from "./NavbarButton";
-import NavbarSocialMedia from "./NavbarSocialMedia";
-import Image from "next/image";
 import { Tooltip } from "antd";
-import Link from "next/link";
+import { motion } from "framer-motion";
 import { Designtools, User } from "iconsax-react";
-import { useParams, usePathname } from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const pathname = usePathname();
