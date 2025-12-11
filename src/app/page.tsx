@@ -94,7 +94,7 @@ export default function Home() {
           />
           <motion.div
             initial={{ y: 0 }}
-            animate={{ y: "-175px" }}
+            animate={{ y: "-200px" }}
             transition={{ duration: 1, delay: 2 }}
             id="entry"
           >
