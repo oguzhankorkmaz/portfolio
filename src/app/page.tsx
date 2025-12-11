@@ -69,25 +69,25 @@ export default function Home() {
             icon={<Text color="#1B1E31" size={24} />}
           />
           <EntryIconCard
-            styles="xl:left-[680px] lg:left-[540px] md:left-[440] left-[320px] rotate-[-16deg]"
+            styles="xl:left-[680px] lg:left-[540px] md:left-[440px] left-[320px] rotate-[-16deg]"
             topStart={-200}
             topEnd={-290}
             icon={<Brush2 color="#1B1E31" size={24} />}
           />
           <EntryIconCard
-            styles="xl:left-[880px] lg:left-[680] md:left-[550] left-[320px] md:flex rotate-[-12deg]"
+            styles="xl:left-[880px] lg:left-[680px] md:left-[550px] left-[320px] md:flex rotate-[-12deg]"
             topStart={200}
             topEnd={-120}
             icon={<Gallery color="#1B1E31" size={24} />}
           />
           <EntryIconCard
-            styles="xl:left-[970px] lg:left-[800] md:left-[650] left-[460px] md:flex rotate-[15deg]"
+            styles="xl:left-[970px] lg:left-[800px] md:left-[650px] left-[460px] md:flex rotate-[15deg]"
             topStart={-250}
             topEnd={-370}
             icon={<Play color="#1B1E31" size={24} />}
           />
           <EntryIconCard
-            styles="xl:left-[1200] lg:left-[980] md:left-[750] left-[540px] md:flex rotate-[-13deg]"
+            styles="xl:left-[1200px] lg:left-[980px] md:left-[750px] left-[540px] md:flex rotate-[-13deg]"
             topStart={0}
             topEnd={-220}
             icon={<Layer color="#1B1E31" size={24} />}
