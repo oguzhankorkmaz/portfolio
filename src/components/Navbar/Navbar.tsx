@@ -16,7 +16,7 @@ export default function Navbar() {
     <motion.div
       animate={{ y: [-120, 0] }}
       transition={{ duration: 1, delay: 2 }}
-      className="fixed bottom-6 z-10  w-full flex justify-center"
+      className="fixed z-10  w-full flex justify-center"
     >
       <div className=" relative z-[1] mt-8 p-1 flex items-center justify-between gap-4 rounded-full bg-black h-16 outline outline-2 outline-gray25">
         <div

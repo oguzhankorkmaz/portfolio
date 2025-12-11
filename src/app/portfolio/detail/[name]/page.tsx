@@ -1,6 +1,7 @@
 "use client";
 import { PORTFOLIOS } from "@/app/common/portfolios";
 import Tag from "@/components/Tag/Tag";
+import { Image } from "antd";
 import { ArrowLeft } from "iconsax-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
@@ -9,7 +10,7 @@ export default function PortfolioDetail() {
   const { name } = useParams();
   const item = PORTFOLIOS.find((item) => item.name_t === name);
   return (
-    <div className="relative bg-white  rounded-md py-6 mt-6">
+    <div className="relative bg-white  rounded-md p-4 py-6 mt-6">
       <div className="container mx-auto">
         <Link href="/portfolio" className="inline-flex items-center gap-4 mt-20">
           <div className="flex items-center justify-center rounded-full border bg-gray w-15 h-15">
@@ -22,9 +23,9 @@ export default function PortfolioDetail() {
           {item?.url && <Link href={item?.url} target="_blank" className="bg-black text-white rounded-full py-3 px-6 flex items-center gap-10">Go to Website</Link>}
         </div>
         <div className="flex gap-6 mt-10">
-          {item?.logo_design && (
+          {/* {item?.logo_design && (
             <Tag color="gray" text="Logo Design" type="logo" size="long" />
-          )}
+          )} */}
           {item?.mobile_design && (
             <Tag color="gray" text="Mobile Design" type="mobile" size="long" />
           )}
@@ -36,7 +37,7 @@ export default function PortfolioDetail() {
           )}
         </div>
         <div className="mt-10">
-            <img src={item?.view_img} className="rounded-md"/>
+            <Image src={item?.view_img} className="rounded-md"/>
         </div>
       </div>
     </div>

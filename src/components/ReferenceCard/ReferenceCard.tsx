@@ -16,7 +16,7 @@ type ReferenceCardProp = {
 function ReferenceCard({ data }: ReferenceCardProp) {
   return (
     <div className="bg-gray col-span-1 flex items-center justify-between p-3 rounded-[10px]">
-      <div className="flex items-center">
+      <div className="flex items-center gap-3 w-[calc(100%-50px)]">
         <img
           src={data.img}
           alt="user"
@@ -24,11 +24,10 @@ function ReferenceCard({ data }: ReferenceCardProp) {
           height={60}
           className="rounded-[10px]"
         />
-        <div className="ml-3">
+        <div className="">
           <p className="font-bold text-sm">{data.name}</p>
-          <p className=" text-sm mt-2">
-            {data.title} {data.phone}
-          </p>
+          <p className=" text-sm mt-1 text-wrap">{data.title}</p>
+          <p className=" text-sm mt-1">{data.phone}</p>
         </div>
       </div>
 

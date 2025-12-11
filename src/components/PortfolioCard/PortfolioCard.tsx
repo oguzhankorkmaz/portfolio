@@ -37,7 +37,7 @@ function PortfolioCard({ type, data }: PortfolioCardProp) {
         whileHover={{ top: "auto", bottom: 0 }}
         className="absolute p-6 top-0 w-full flex items-end justify-between h-[120%] bg-gradient-to-t from-black70 from-2% to-black0 to-20%"
       >
-        <p className="text-xl font-semibold text-white">{data.name}</p>
+        <p className="text-lg md:text-xl font-semibold text-white">{data.name}</p>
         <ArrowButton href="#" target="none" color="white" />
       </motion.div>
     </div>
@@ -50,9 +50,9 @@ function PortfolioCard({ type, data }: PortfolioCardProp) {
       <div className="mt-3 flex items-center justify-between">
         <div className="text font-bold">{data.name}</div>
         <div className="flex gap-2">
-          {data.logo_design && (
+          {/* {data.logo_design && (
             <Tag color="gray" text="Logo Design" type="logo" />
-          )}
+          )} */}
           {data.mobile_design && (
             <Tag color="gray" text="Mobile Design" type="mobile" />
           )}

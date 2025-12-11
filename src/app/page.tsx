@@ -94,7 +94,7 @@ export default function Home() {
           />
           <motion.div
             initial={{ y: 0 }}
-            animate={{ y: "-220px" }}
+            animate={{ y: "-175px" }}
             transition={{ duration: 1, delay: 2 }}
             id="entry"
           >
@@ -102,11 +102,11 @@ export default function Home() {
               <p className="text-lg md:text-2xl text-center">
                 Are you looking for an
               </p>
-              <div className="flex justify-center mt-10 md:mt-0">
-                <p className="text-3xl md:text-5xl lg:text-6xl font-bold">
+              <div className="flex flex-col md:flex-row justify-center mt-10 md:mt-0">
+                <p className="text-3xl md:text-5xl lg:text-6xl font-bold text-center">
                   UI / UX Designer
                 </p>
-                <p className="text-3xl md:text-4xl lg:text-5xl font-bold rotate-45">
+                <p className="text-3xl md:text-5xl lg:text-6xl font-bold rotate-45 text-center">
                   ?
                 </p>
               </div>
