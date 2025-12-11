@@ -31,7 +31,7 @@ type PortfolioCardProp = {
 function PortfolioCard({ type, data }: PortfolioCardProp) {
   return type === "home" ? (
     <div className={`relative rounded-[20px] overflow-hidden`}>
-      <img src={data.view_img} className="w-full h-auto " />
+      <img src={data.view_img} className="w-full h-auto " alt="project"/>
       <motion.div
         initial={{ top: 0, bottom: "auto" }}
         whileHover={{ top: "auto", bottom: 0 }}

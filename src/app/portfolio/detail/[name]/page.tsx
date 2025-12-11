@@ -12,7 +12,7 @@ export default function PortfolioDetail() {
   return (
     <div className="relative bg-white  rounded-md p-4 py-6 mt-6">
       <div className="container mx-auto">
-        <Link href="/portfolio" className="inline-flex items-center gap-4 mt-20">
+        <Link href="/portfolio" className="inline-flex items-center gap-4 mt-20" id="back-portfolio">
           <div className="flex items-center justify-center rounded-full border bg-gray w-15 h-15">
             <ArrowLeft size={24} variant="TwoTone" color="#1B1E31"/>
           </div>
@@ -20,7 +20,7 @@ export default function PortfolioDetail() {
         </Link>
         <div className="flex items-center justify-between mt-10">
           <div className="text-xl font-black">{item?.name}</div>
-          {item?.url && <Link href={item?.url} target="_blank" className="bg-black text-white rounded-full py-3 px-6 flex items-center gap-10">Go to Website</Link>}
+          {item?.url && <Link id={item?.name_t} href={item?.url} target="_blank" className="bg-black text-white rounded-full py-3 px-6 flex items-center gap-10">Go to Website</Link>}
         </div>
         <div className="flex gap-6 mt-10">
           {/* {item?.logo_design && (
@@ -37,7 +37,7 @@ export default function PortfolioDetail() {
           )}
         </div>
         <div className="mt-10">
-            <Image src={item?.view_img} className="rounded-md"/>
+            <Image src={item?.view_img} className="rounded-md" alt="project"/>
         </div>
       </div>
     </div>

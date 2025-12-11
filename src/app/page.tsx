@@ -286,6 +286,7 @@ export default function Home() {
               <Link
                 href="/portfolio"
                 className="bg-gray p-6 rounded-[20px] overflow-hidden relative"
+                id="portfolio-link"
               >
                 <div className="flex flex-col justify-between h-full">
                   <div className="flex justify-end">
@@ -306,7 +307,7 @@ export default function Home() {
               ))}
             </div>
           </section>
-         <Footer/>
+          <Footer />
         </div>
       </motion.div>
     </>
