@@ -16,14 +16,12 @@ export const REFERENCES = [
   {
     name: "Ulaşcan AYTOLUN",
     title: "Co-Founder in Trapmine",
-    phone: "+90 554 985 6900",
     img: "/images/references/u_aytolun.jpg",
     linkedin: "https://www.linkedin.com/in/ulascanaytolun/",
   },
   {
     name: "Calil ÜNÜVER",
     title: "Co-Founder in Trapmine",
-    phone: "+90 554 345 9072",
     img: "/images/references/c_unuver.jpg",
     linkedin: "https://www.linkedin.com/in/celilunuver/",
   },
