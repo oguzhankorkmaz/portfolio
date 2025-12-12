@@ -1,10 +1,6 @@
 import Navbar from "@/components/Navbar/Navbar";
 import "../styles/globals.css";
-// app.js veya main.js dosyanızda
-
-import { initializeApp } from "firebase/app";
-
-import { getAnalytics } from "firebase/analytics";
+import FirebaseAnalytics from "@/components/FirebaseAnalytics/FirebaseAnalytics";
 
 export const metadata = {
   title: "Oğuzhan Korkmaz - CV & Portfolio",
@@ -17,29 +13,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyD4TL9y3czwzvw-hbvhNGD1auUvdRt9jWQ",
-    authDomain: "portfolio-28be8.firebaseapp.com",
-    projectId: "portfolio-28be8",
-    storageBucket: "portfolio-28be8.firebasestorage.app",
-    messagingSenderId: "1076242630116",
-    appId: "1:1076242630116:web:2d8980e991bf5270c773f1",
-    measurementId: "G-KZWV062V5N",
-  };
-
-  // Initialize Firebase
-
-  const app = initializeApp(firebaseConfig);
-
-  const analytics = getAnalytics(app);
-
   return (
     <html lang="en">
       <body>
+        
+        <FirebaseAnalytics />
         <div className="flex">
           <Navbar />
-          {/* <Sidebar /> */}
-          {/* <SocialMedias /> */}
           <main className="w-full md:mx-6">{children}</main>
         </div>
       </body>
