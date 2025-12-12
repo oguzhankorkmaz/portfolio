@@ -41,6 +41,7 @@ import Code from "@/components/Icons/Code";
 import { Divider } from "antd";
 import { LinkedinFilled, LinkedinOutlined } from "@ant-design/icons";
 import Footer from "@/components/Footer/Footer";
+import SkillsLogo from "@/components/SkillsLogo/SkillsLogo";
 
 export default function Home() {
   return (
@@ -121,7 +122,7 @@ export default function Home() {
       >
         <div className="relative container mx-auto pb-6">
           <section id="about">
-            <div className="md:grid grid-cols-3 gap-20  p-6  mx-auto rounded-[36px] bg-gray md:h-[620px] overflow-hidden">
+            <div className="md:grid grid-cols-3 gap-20  p-6  mx-auto rounded-[36px] bg-gray  md:h-[800px] overflow-hidden">
               <div className="relative hidden col-span-1  md:flex justify-center">
                 <img
                   src="/images/about1.png"
@@ -136,17 +137,23 @@ export default function Home() {
                 <p className="text-2xl md:text-5xl lg:text-6xl ml-4 font-extrabold mb-4 hidden md:block md:text-end">
                   Korkmaz
                 </p>
-                <p className="leading-9">
-                  For 5 years, I have been continuing to improve myself in both
-                  frontend and UI design. By following design trends and
-                  understanding the needs of the user, I try to create the most
-                  suitable designs for them. On the coding side, I code the
-                  designs I make using the latest technologies such as ReactJs,
-                  NextJs. Since I have mastered the frontend side, I make
-                  designs that understand the software team and do not carry
-                  heavy code load. I work to make designs that companies can
-                  present their products or platforms to their users in the best
-                  way.
+                <p className="leading-8">
+                  For the past five years, I have been enhancing my expertise in
+                  both frontend development and UI design, approaching each
+                  project with a holistic perspective on user experience. By
+                  closely following design trends and accurately analyzing the
+                  unique needs of each project, I aim to create innovative
+                  interfaces that add meaningful value to the brand.<br/><br/>I bring my
+                  designs to life using modern technologies such as React.js and
+                  Next.js, delivering high-performance, scalable, and
+                  technically feasible solutions. With strong proficiency in
+                  frontend development, I create sustainable and clean-coded
+                  interfaces that streamline workflows and support efficient
+                  collaboration with engineering teams.<br/><br/>My goal is to craft
+                  digital experiences that enable companies to present their
+                  products and services to users in the most effective,
+                  memorable, and seamless way—balancing aesthetics,
+                  functionality, and user-centric design principles.
                 </p>
               </div>
             </div>
@@ -256,9 +263,9 @@ export default function Home() {
                 <ColorSwatch color="#1B1E31" size={40} variant="Bulk" />
                 <p className="text-center font-bold text-md">Design Tools</p>
               </div>
-              <div className="flex items-center justify-center lg:justify-between flex-wrap gap-8 mt-10">
+              <div className="flex items-center justify-center lg:justify-around flex-wrap gap-8 mt-10">
                 {DESIGNTOOLS.map((item, index) => (
-                  <SkillsProgress data={item} key={index} type="light" />
+                  <SkillsLogo data={item} key={index} type="light" />
                 ))}
               </div>
             </div>
@@ -270,9 +277,9 @@ export default function Home() {
                   Coding
                 </p>
               </div>
-              <div className="flex items-center justify-center lg:justify-between flex-wrap gap-8 mt-10">
+              <div className="flex items-center justify-center lg:justify-around flex-wrap gap-8 mt-10">
                 {CODE.map((item, index) => (
-                  <SkillsProgress data={item} key={index} type="dark" />
+                  <SkillsLogo data={item} key={index} type="dark" />
                 ))}
               </div>
             </div>

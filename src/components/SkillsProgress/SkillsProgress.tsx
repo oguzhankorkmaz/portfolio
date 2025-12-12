@@ -1,6 +1,4 @@
 import { Progress } from "antd";
-import { BrushBig, Code } from "iconsax-react";
-import React from "react";
 
 type SkillsProgressProp = {
   data: Item;

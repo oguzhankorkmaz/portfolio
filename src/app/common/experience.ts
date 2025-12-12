@@ -12,40 +12,17 @@ export const EXPERIENCE = [
         description: [
           {
             title: "EDR",
-            desc: "I made the dashboard designs of the EDR project, which is our web project, with 2 different themes. On the code side, I made the appearance of some components, font adjustments, general margin and padding arrangements.",
+            desc: "I led the UI design of our web-based EDR platform, creating two distinct theme variations and developing a clean, scalable dashboard structure. On the development side, I implemented component styling, optimized typography, and applying modern design systems to ensure a consistent and polished user experience.",
           },
           {
             title: "Agent UI",
-            desc: "I designed the Agent UI, which is our desktop application. I made the components and opening animations with different colours according to the situation. I made animation and general placement on the code side.",
+            desc: "For our desktop application, Agent UI, I designed the complete interface with a focus on usability and visual clarity. For a modern design, I made a basic and simple design and implemented motion graphic.",
           },
         ],
       },
     ],
   },
-  {
-    time: "09.2023 - Present",
-    logo: "/images/experience/trapmine_logo.png",
-    company_info:
-      "Trapmine protects Windows, Linux, Mobile, and Cloud Workloads with remote forensics, remediation, and threat hunting.",
-    company_name: "Trapmine",
-    positions: [
-      {
-        title: "UI Designer",
-        time: "09.2023 - Present",
-        description: [
-          {
-            title: "EDR",
-            desc: "I redesigned the design of our EDR project in accordance with modern designs and general design principles and in a way that the user can use it more easily.",
-          },
-          {
-            title: "Mobile Security App",
-            desc: "I designed our phone security application to be user friendly and suitable for modern designs. I made animations for splash screen and application.",
-          },
-        ],
-      },
-    ],
-  },
-  {
+   {
     time: "04.2023 - Present",
     logo: "/images/experience/crewin_logo.png",
     company_info:
@@ -57,7 +34,7 @@ export const EXPERIENCE = [
         time: "04.2023 - Present",
         description: [
           {
-            desc: "I coordinate and do plan for interns works hours and works. I help them when they have problems. Sometimes, we code together.",
+            desc: "I manage planning and coordination for interns, oversee their workflow, and provide guidance and support. I also collaborate with them on development tasks when needed.",
           },
         ],
       },
@@ -66,7 +43,7 @@ export const EXPERIENCE = [
         time: "07.2022 - 04.2023",
         description: [
           {
-            desc: "I coordinate and do plan for interns works hours and works. I help them when they have problems. Sometimes, we code together.",
+            desc: "I coordinated intern schedules and task assignments, offering technical assistance and mentoring. I actively supported their development by working alongside them on coding tasks.",
           },
         ],
       },
@@ -75,14 +52,38 @@ export const EXPERIENCE = [
         time: "05.2020 - 07.2022",
         description: [
           {
-            desc: "I made UI designs in line with the wishes of people who will work in the maritime industry and coded these designs on the MVC project.",
+            desc: "I designed user interfaces for maritime industry needs and implemented these designs within an MVC-based front-end structure.",
           },
         ],
       },
     ],
   },
   {
-    time: "07.2021 - 07.2022",
+    time: "01.2022 - 09.2023",
+    logo: "/images/experience/trapmine_logo.png",
+    company_info:
+      "Trapmine protects Windows, Linux, Mobile, and Cloud Workloads with remote forensics, remediation, and threat hunting.",
+    company_name: "Trapmine",
+    positions: [
+      {
+        title: "UI Designer",
+        time: "01.2022 - 09.2023",
+        description: [
+          {
+            title: "EDR",
+            desc: "I redesigned our EDR platform with a strong focus on modern UI principles and a user-centric approach. My work involved elevating the overall visual language, improving interface clarity, and restructuring key user flows to ensure a more intuitive and efficient experience.",
+          },
+          {
+            title: "Mobile Security App",
+            desc: "I designed our mobile security application with an emphasis on contemporary design standards and seamless usability. In addition to crafting a clean, user-friendly interface, I created engaging motion designs—including splash screen animations and in-app transitions—to enhance the product’s visual appeal and overall user experience.",
+          },
+        ],
+      },
+    ],
+  },
+ 
+  {
+    time: "08.2020 - 01.2022",
     logo: "/images/experience/privia_logo.png",
     company_info:
       "Privia Security, a company that provides cybersecurity solutions and consultancy services.",
@@ -90,10 +91,10 @@ export const EXPERIENCE = [
     positions: [
       {
         title: "UI Designer",
-        time: "07.2021 - 07.2022",
+        time: "07.2021 - 01.2022",
         description: [
           {
-            desc: "I took part in the UI design and front-end coding of the web application in the new version of PriviaHub, Turkey's first cyber range platform.",
+            desc: "I contributed to the UI design and frontend development of the new PriviaHub web application, Turkey’s first cyber range platform.",
           },
         ],
       },
@@ -102,7 +103,7 @@ export const EXPERIENCE = [
         time: "01.2022 - 07.2022",
         description: [
           {
-            desc: "I worked on the presentations I made in the field of UI and UX. I've gained experience working on several projects with React.",
+            desc: "I created UI/UX-focused presentations and gained hands-on experience by working on multiple React projects.",
           },
         ],
       },
@@ -111,7 +112,7 @@ export const EXPERIENCE = [
         time: "08.2020 - 01.2021",
         description: [
           {
-            desc: "I made presentations and studies in the field of UI / UX and Frontend. I made project reviews and presentations in React, Gulp.",
+            desc: "I conducted UI/UX and frontend research, performed project analyses, and delivered presentations using React and Gulp.",
           },
         ],
       },
