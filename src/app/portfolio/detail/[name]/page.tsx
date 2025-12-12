@@ -18,9 +18,9 @@ export default function PortfolioDetail() {
           </div>
           Back
         </Link>
-        <div className="flex items-center justify-between mt-10">
+        <div className="flex flex-col md:flex-row md:items-center justify-between mt-10">
           <div className="text-xl font-black">{item?.name}</div>
-          {item?.url && <Link id={item?.name_t} href={item?.url} target="_blank" className="bg-black text-white rounded-full py-3 px-6 flex items-center gap-10">Go to Website</Link>}
+          {item?.url && <Link id={item?.name_t} href={item?.url} target="_blank" className="bg-black text-white rounded-full py-3 px-6 flex items-center gap-10 mt-3 md:mt-0 w-fit">Go to Website</Link>}
         </div>
         <div className="flex gap-6 mt-10">
           {/* {item?.logo_design && (
