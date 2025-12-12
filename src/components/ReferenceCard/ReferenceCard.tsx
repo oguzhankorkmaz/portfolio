@@ -8,7 +8,7 @@ type ReferenceCardProp = {
     name: string;
     title: string;
     img: string;
-    phone: string;
+    phone?: string;
     linkedin: string;
   };
 };
