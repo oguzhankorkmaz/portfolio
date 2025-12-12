@@ -11,19 +11,12 @@ export const metadata = {
   description: "Oğuzhan Korkmaz - UI/UX Designer CV & Portfolio",
 };
 
-// TODO: Add SDKs for Firebase products that you want to use
-
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   const firebaseConfig = {
     apiKey: "AIzaSyD4TL9y3czwzvw-hbvhNGD1auUvdRt9jWQ",
     authDomain: "portfolio-28be8.firebaseapp.com",
