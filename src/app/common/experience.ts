@@ -7,7 +7,7 @@ export const EXPERIENCE = [
     company_name: "SonicWall",
     positions: [
       {
-        title: "UI Designer & UI Developer",
+        title: "UI/UX Designer & UI Developer",
         time: "09.2023 - Present",
         description: [
           {
@@ -66,7 +66,7 @@ export const EXPERIENCE = [
     company_name: "Trapmine",
     positions: [
       {
-        title: "UI Designer",
+        title: "UI/UX Designer",
         time: "01.2022 - 09.2023",
         description: [
           {
@@ -90,7 +90,7 @@ export const EXPERIENCE = [
     company_name: "Privia Security",
     positions: [
       {
-        title: "UI Designer",
+        title: "UI/UX Designer",
         time: "07.2021 - 01.2022",
         description: [
           {
