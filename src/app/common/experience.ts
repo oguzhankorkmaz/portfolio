@@ -39,11 +39,11 @@ export const EXPERIENCE = [
         ],
       },
       {
-        title: "Software Coordinator",
+        title: "UI/UX Design Team Lead",
         time: "07.2022 - 04.2023",
         description: [
           {
-            desc: "I coordinated intern schedules and task assignments, offering technical assistance and mentoring. I actively supported their development by working alongside them on coding tasks.",
+            desc: "I led the UI/UX design team, coordinating design tasks and project workflows while supporting team members throughout the design process. I provided guidance on user experience decisions and collaborated closely with the team to create clear, usable, and visually consistent interfaces.",
           },
         ],
       },
