@@ -1,47 +1,33 @@
 "use client";
+import Footer from "@/components/Footer/Footer";
+import Code from "@/components/Icons/Code";
+import SkillsLogo from "@/components/SkillsLogo/SkillsLogo";
+import SkillsTag from "@/components/SkillsTag/SkillsTag";
 import { motion } from "framer-motion";
 import {
-  Be,
+  Bezier,
+  Brush,
+  Brush2,
   BrushBig,
-  CallCalling,
-  Code1,
   ColorSwatch,
-  Dribbble,
-  Messages1,
-  Sms,
-  Whatsapp,
+  Gallery,
+  Layer,
+  Play,
+  Text
 } from "iconsax-react";
+import Link from "next/link";
+import ArrowButton from "../components/ArrowButton/ArrowButton";
+import CertificationList from "../components/CertificationList/CertificationList";
+import EntryIconCard from "../components/EntryIconCard/EntryIconCard";
+import ExperienceCard from "../components/ExperienceCard/ExperienceCard";
+import LineList from "../components/LineList/LineList";
+import PortfolioCard from "../components/PortfolioCard/PortfolioCard";
+import ReferenceCard from "../components/ReferenceCard/ReferenceCard";
 import EXPERIENCE from "./common";
 import { CERTIFICATIONS } from "./common/certifications";
 import { PORTFOLIOS } from "./common/portfolios";
 import { REFERENCES } from "./common/references";
 import { CODE, DESIGNTOOLS, UIUX } from "./common/skills";
-import ArrowButton from "../components/ArrowButton/ArrowButton";
-import CertificationList from "../components/CertificationList/CertificationList";
-import ExperienceCard from "../components/ExperienceCard/ExperienceCard";
-import LineList from "../components/LineList/LineList";
-import PortfolioCard from "../components/PortfolioCard/PortfolioCard";
-import ReferenceCard from "../components/ReferenceCard/ReferenceCard";
-import SkillsProgress from "../components/SkillsProgress/SkillsProgress";
-import {
-  Bezier,
-  Brush,
-  Brush2,
-  Gallery,
-  Layer,
-  Play,
-  Text,
-} from "iconsax-react";
-import EntryIconCard from "../components/EntryIconCard/EntryIconCard";
-import Link from "next/link";
-import Image from "next/image";
-import Tag from "@/components/Tag/Tag";
-import SkillsTag from "@/components/SkillsTag/SkillsTag";
-import Code from "@/components/Icons/Code";
-import { Divider } from "antd";
-import { LinkedinFilled, LinkedinOutlined } from "@ant-design/icons";
-import Footer from "@/components/Footer/Footer";
-import SkillsLogo from "@/components/SkillsLogo/SkillsLogo";
 
 export default function Home() {
   return (

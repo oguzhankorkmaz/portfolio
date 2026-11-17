@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import FirebaseAnalytics from "@/components/FirebaseAnalytics/FirebaseAnalytics";
 
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
@@ -119,6 +120,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script id="maze-snippet" strategy="afterInteractive">
+          {`
+            (function (m, a, z, e) {
+              var s, t, u, v;
+              try { t = m.sessionStorage.getItem('maze-us'); } catch (err) {}
+              if (!t) {
+                t = new Date().getTime();
+                try { m.sessionStorage.setItem('maze-us', t); } catch (err) {}
+              }
+              u = document.currentScript || (function () {
+                var w = document.getElementsByTagName('script');
+                return w[w.length - 1];
+              })();
+              v = u && u.nonce;
+              s = a.createElement('script');
+              s.src = z + '?apiKey=' + e;
+              s.async = true;
+              if (v) s.setAttribute('nonce', v);
+              a.getElementsByTagName('head')[0].appendChild(s);
+              m.mazeUniversalSnippetApiKey = e;
+            })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', '5bc7a731-7111-4924-8a2e-55e279fd3191');
+          `}
+        </Script>
+      </head>
       <body>
         <FirebaseAnalytics />
         <div className="flex">

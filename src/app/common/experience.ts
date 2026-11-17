@@ -30,7 +30,7 @@ export const EXPERIENCE = [
     company_name: "Crewin",
     positions: [
       {
-        title: "General Coordinator",
+        title: "Product Manager (Volunteer)",
         time: "04.2023 - Present",
         description: [
           {
@@ -39,7 +39,7 @@ export const EXPERIENCE = [
         ],
       },
       {
-        title: "UI/UX Design Team Lead",
+        title: "UI/UX Design Team Lead (Volunteer)",
         time: "07.2022 - 04.2023",
         description: [
           {
@@ -48,7 +48,7 @@ export const EXPERIENCE = [
         ],
       },
       {
-        title: "Front-End Developer, UI/UX Designer",
+        title: "UI/UX Designer (Volunteer)",
         time: "05.2020 - 07.2022",
         description: [
           {
